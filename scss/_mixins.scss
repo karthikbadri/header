@@ -1,0 +1,16 @@
+@mixin display($flex,$direction) {
+    display: $flex;
+    flex-direction: $direction; 
+}
+
+@mixin font($style,$fstyle) {
+    font-family: $style,$fstyle;
+}
+
+@mixin positions($positions,$left,$right,$top,$bottom) {
+    position: $positions;
+    left: $left;
+    right: $right;
+    top: $top;
+    bottom: $bottom;
+}
